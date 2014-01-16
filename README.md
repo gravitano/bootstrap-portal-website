@@ -7,6 +7,7 @@ Components
 ============
 1. Bootstrap Version 3.0.3
 2. Font Awesome 4.0.3
+3. jQuery Nicescroll
 
 Demo 
 ============
