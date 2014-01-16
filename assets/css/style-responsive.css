@@ -1,0 +1,48 @@
+@media(max-width: 1024px){
+	.middle-content{
+		width: 90%;
+	}
+	/* sponsor */
+	.sponsor a{
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.sponsor a:last-child{
+		margin-right: 5px !important;
+	}
+}
+
+@media(max-width: 1000px){	
+	.sponsor a{
+		margin-right: 2px;
+		margin-bottom: 6px;
+	}
+	.sponsor a img{
+		width: 95%;
+	}
+}
+
+@media(max-width: 990px){
+	.carousel-image{
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+
+	.input-search{
+		width: 80%;
+		float: left;
+	}
+	.btn-search{
+		top: -5px;
+	}
+}
+
+@media(max-width: 300px){
+	
+	.input-search{
+		width: 65%;
+		float: left;
+	}
+}

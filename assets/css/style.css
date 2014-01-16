@@ -1,0 +1,77 @@
+@import "../font-awesome/css/font-awesome.css";
+
+*{
+	font-family: "Helvetica", Arial;
+}
+body{
+	font-size: 13px;
+	background: #e4e4e4;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+
+/* classes */
+.no-radius{
+	border-radius: 0 !important;
+}
+.middle-content{
+	width: 950px;
+	background: #FFF;
+}
+.middle-content.no-bg{
+	background: none !important;
+}
+.breadcrumb-content{
+	margin-top: 10px;
+}
+.tab-pane{
+	border-left: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+}
+.tab-pane > .list-group-item{
+	border: 0;
+}
+
+/* sponsor */
+.sponsor a{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.sponsor a:last-child{
+	margin-right: 0 !important;
+}
+
+.see-more{
+	margin-top: 10px;
+}
+
+.box-post-title {
+	border-bottom: 1px solid #dedede;
+	padding: 10px 0;
+}
+
+.footer{
+	color: #666;
+	padding-bottom: 10px;
+}
+.footer-content{
+	margin-top: -10px;
+}
+
+.header{
+	padding-top: 12px;
+}
+.header img{
+	max-width: 100%;
+}
+
+.btn-search{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	position: relative;
+	left: -10px;
+}
